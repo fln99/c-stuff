@@ -8,7 +8,7 @@ int main(void) {
   
   printf("number1 is: %i and number2 is: %i\n", number1, number2);
   
-  swap(&number1, &number2);
+  swap(&number1, &number2);  // take values as reference
   
   printf("Now number1 is: %i and number2 is: %i\n", number1, number2);
 }
